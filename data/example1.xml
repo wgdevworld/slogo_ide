@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>forward</name>
+  <alternate-name>fd fwd</alternate-name>
+  <description>This command moves the Turtle a specified distance</description>
+  <example>fd 100</example>
+  <help>This command takes an integer as a parameter and moves the Turtle forward the specified distance</help>
+  <number-params>1</number-params>
+  <implementing-class>ForwardCommand</implementing-class>
+</slogo>

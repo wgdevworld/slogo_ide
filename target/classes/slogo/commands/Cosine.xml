@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>cosine</name>
+  <alternate-name>cos</alternate-name>
+  <description>The cosine command returns cosine of the specified degrees.</description>
+  <example>cosine 180</example>
+  <help>This commands return cosine of the parameter passed to the function.</help>
+  <number-params>1</number-params>
+  <implementing-class>Cosine</implementing-class>
+</slogo>

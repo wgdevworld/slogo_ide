@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>arctangent</name>
+  <alternate-name>atan</alternate-name>
+  <description>The arctangent command returns arctangent of the specified degrees.</description>
+  <example>arctangent 180</example>
+  <help>This commands return arctangent of the parameter passed to the function.</help>
+  <number-params>1</number-params>
+  <implementing-class>ArcTangent</implementing-class>
+</slogo>

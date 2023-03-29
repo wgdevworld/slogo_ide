@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>pendown</name>
+  <alternate-name>pendown pd</alternate-name>
+  <description>The pendown command  instruct the turtle to draw a line as it moves, with subsequent movements of the turtle resulting in a visible trace on the screen.</description>
+  <example>pd</example>
+  <help>This commands allows for the Turtle to draw visible lines on the screen as it moves.</help>
+  <number-params>0</number-params>
+  <implementing-class>PenDown</implementing-class>
+</slogo>

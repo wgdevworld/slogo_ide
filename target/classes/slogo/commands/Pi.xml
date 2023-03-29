@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>pi</name>
+  <alternate-name>pi</alternate-name>
+  <description>The pi command returns value of the number Pi (Math.PI).</description>
+  <example>pi</example>
+  <help>The pi command returns value of the number Pi (Math.PI).</help>
+  <number-params>0</number-params>
+  <implementing-class>Pi</implementing-class>
+</slogo>

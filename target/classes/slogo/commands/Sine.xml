@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>sine</name>
+  <alternate-name>sin</alternate-name>
+  <description>The sine command returns sine of the specified degrees.</description>
+  <example>sine 90</example>
+  <help>This commands return sine of the parameter passed to the function.</help>
+  <number-params>1</number-params>
+  <implementing-class>Sine</implementing-class>
+</slogo>

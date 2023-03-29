@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>squareroot</name>
+  <alternate-name>sqrt</alternate-name>
+  <description>The squareroot command returns the square root of the specified expression.</description>
+  <example>squareroot 64</example>
+  <help>This commands returns the square root of the parameter passed to the function.</help>
+  <number-params>1</number-params>
+  <implementing-class>SquareRoot</implementing-class>
+</slogo>

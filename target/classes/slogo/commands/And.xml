@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>and</name>
+  <alternate-name>and</alternate-name>
+  <description>the and command returns 1 if test1 and test2 are non-zero, otherwise 0.</description>
+  <example>and 2 1</example>
+  <help> </help>
+  <number-params>2</number-params>
+  <implementing-class>And</implementing-class>
+</slogo>

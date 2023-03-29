@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>left</name>
+  <alternate-name>left lt</alternate-name>
+  <description>The left command rotates the turtle by a specified angle to the left</description>
+  <example>lt 90</example>
+  <help>This command takes a double as a parameter and rotates the Turtle left for a specified degree.</help>
+  <number-params>1</number-params>
+  <implementing-class>Left</implementing-class>
+</slogo>

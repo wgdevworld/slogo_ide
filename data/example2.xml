@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>right</name>
+  <alternate-name>rt</alternate-name>
+  <description>This command turns the Turtle a specified degree</description>
+  <example>rt 90</example>
+  <help>This command takes an integer as a parameter and turns the Turtle right the specified degree</help>
+  <number-params>1</number-params>
+  <implementing-class>RightTurnCommand</implementing-class>
+</slogo>
+

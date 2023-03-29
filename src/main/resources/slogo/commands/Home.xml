@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>home</name>
+  <alternate-name>home</alternate-name>
+  <description>The home command moves the turtle to its original position at the center of the screen.</description>
+  <example>home</example>
+  <help>This commands places the Turtle back at the center of the screen</help>
+  <number-params>0</number-params>
+  <implementing-class>Home</implementing-class>
+</slogo>

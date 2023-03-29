@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>For</name>
+  <alternate-name>for</alternate-name>
+  <description>the for loop</description>
+  <example>for[][]</example>
+  <help> </help>
+  <number-params>0</number-params>
+  <implementing-class>And</implementing-class>
+</slogo>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>lessequal</name>
+  <alternate-name>lessequals</alternate-name>
+  <description>the lessequals command returns 1 if the value of expr1 is less than or equal to the value of expr2, otherwise 0.</description>
+  <example>lessequals 7 2</example>
+  <help> </help>
+  <number-params>2</number-params>
+  <implementing-class>LessEquals</implementing-class>
+</slogo>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>setheading</name>
+  <alternate-name>setheading seth</alternate-name>
+  <description>The setheading command changes the direction in which the turtle is facing to a specified angle in degrees.</description>
+  <example>seth 180</example>
+  <help>This command takes a double as a parameter and rotates the Turtle to that absolute heading.</help>
+  <number-params>1</number-params>
+  <implementing-class>SetHeading</implementing-class>
+</slogo>

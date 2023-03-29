@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>hideturtle</name>
+  <alternate-name>ht</alternate-name>
+  <description>The hideturtle command hides the turtle icon on the graphics screen to conceal its current position and orientation.</description>
+  <example>ht</example>
+  <help>This commands hides the Turtle, making it invisible on the screen.</help>
+  <number-params>0</number-params>
+  <implementing-class>HideTurtle</implementing-class>
+</slogo>

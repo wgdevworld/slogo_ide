@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>showturtle</name>
+  <alternate-name>st</alternate-name>
+  <description>The showturtle command displays the turtle icon on the graphics screen to indicate its current position and orientation.</description>
+  <example>st</example>
+  <help>This commands allows for the Turtle to be visible on the screen.</help>
+  <number-params>0</number-params>
+  <implementing-class>ShowTurtle</implementing-class>
+</slogo>

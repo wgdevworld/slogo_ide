@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>remainder</name>
+  <alternate-name>%</alternate-name>
+  <description>The remainder command divides two numerical values and returns the remainder.</description>
+  <example>remainder 2 10</example>
+  <help>This command divides 2 numbers and returns the remainder of the division.</help>
+  <number-params>2</number-params>
+  <implementing-class>Remainder</implementing-class>
+</slogo>

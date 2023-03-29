@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>not</name>
+  <alternate-name>not</alternate-name>
+  <description>the not command returns 1 if test is 0 and 0 if test is non-zero.</description>
+  <example>not 10</example>
+  <help> </help>
+  <number-params>1</number-params>
+  <implementing-class>Not</implementing-class>
+</slogo>

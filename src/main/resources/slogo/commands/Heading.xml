@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>heading</name>
+  <alternate-name>heading</alternate-name>
+  <description>The heading command is used to retrieve the current orientation of the turtle in degrees.</description>
+  <example>heading</example>
+  <help>This commands returns the orientation of the Turtle</help>
+  <number-params>0</number-params>
+  <implementing-class>Heading</implementing-class>
+</slogo>

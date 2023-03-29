@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>random</name>
+  <alternate-name>rand</alternate-name>
+  <description>The random command generates a random number less than a specified number.</description>
+  <example>random 100</example>
+  <help>This commands generates a random number less a max number.</help>
+  <number-params>1</number-params>
+  <implementing-class>Random</implementing-class>
+</slogo>

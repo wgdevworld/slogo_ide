@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>equal</name>
+  <alternate-name> == </alternate-name>
+  <description>the equal command returns 1 if the value of expr1 and the value of expr2 are equal, otherwise 0.</description>
+  <example>equal 6 6</example>
+  <help> </help>
+  <number-params>2</number-params>
+  <implementing-class>Equal</implementing-class>
+</slogo>

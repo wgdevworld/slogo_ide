@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>variable</name>
+  <alternate-name>Variable</alternate-name>
+  <description>stores a value under key name in the Variable.properties file</description>
+  <example>:a</example>
+  <help> </help>
+  <number-params>0</number-params>
+  <implementing-class>Variable</implementing-class>
+</slogo>

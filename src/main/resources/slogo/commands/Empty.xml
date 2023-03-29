@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>Empty</name>
+  <alternate-name>empty</alternate-name>
+  <description>empty command</description>
+  <example>empty</example>
+  <help> </help>
+  <number-params>0</number-params>
+  <implementing-class>Empty</implementing-class>
+</slogo>

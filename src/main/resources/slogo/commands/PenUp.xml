@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>penup</name>
+  <alternate-name>penup pu</alternate-name>
+  <description>The penup command is used to lift the pen off the drawing surface, so that subsequent movements will not leave a trail.</description>
+  <example>pu</example>
+  <help>This commands allows for the Turtle to move without drawing visible lines on the screen as it moves.</help>
+  <number-params>0</number-params>
+  <implementing-class>PenUp</implementing-class>
+</slogo>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>quotient</name>
+  <alternate-name>/</alternate-name>
+  <description>The quotient command divides two numerical values and returns the quotient.</description>
+  <example>quotient 10 2</example>
+  <help>This command divides 2 numbers and returns the value.</help>
+  <number-params>2</number-params>
+  <implementing-class>Quotient</implementing-class>
+</slogo>

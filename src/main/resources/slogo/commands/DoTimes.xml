@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>dotimes</name>
+  <alternate-name>DoTimes</alternate-name>
+  <description>do times loop</description>
+  <example>dotimes [][]</example>
+  <help> </help>
+  <number-params>0</number-params>
+  <implementing-class>DoTimes</implementing-class>
+</slogo>

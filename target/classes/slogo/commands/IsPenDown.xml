@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>pendown?</name>
+  <alternate-name>pendownp</alternate-name>
+  <description>The pendown? command check if the pen is down or not in the turtle graphics and returns a boolean value of true if the pen is down and false otherwise.</description>
+  <example>pendown?</example>
+  <help>This commands checks if the pen is currently down.</help>
+  <number-params>0</number-params>
+  <implementing-class>IsPenDown</implementing-class>
+</slogo>

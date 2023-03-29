@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>randomrange</name>
+  <alternate-name>randr</alternate-name>
+  <description>The random command generates a random number within a specified range.</description>
+  <example>random 1 100</example>
+  <help>This commands generates a random number within a range.</help>
+  <number-params>2</number-params>
+  <implementing-class>RandomRange</implementing-class>
+</slogo>

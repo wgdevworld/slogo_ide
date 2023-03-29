@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>notequal</name>
+  <alternate-name> != </alternate-name>
+  <description>the notequal command returns 1 if the value of expr1 and the value of expr2 are not equal, otherwise 0.</description>
+  <example>notequal 8 0</example>
+  <help> </help>
+  <number-params>2</number-params>
+  <implementing-class>NotEqual</implementing-class>
+</slogo>

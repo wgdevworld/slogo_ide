@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>log</name>
+  <alternate-name>log</alternate-name>
+  <description>The log command returns the natural log of the specified expression.</description>
+  <example>log 64</example>
+  <help>This commands returns the natural log of the parameter passed to the function.</help>
+  <number-params>1</number-params>
+  <implementing-class>NaturalLog</implementing-class>
+</slogo>

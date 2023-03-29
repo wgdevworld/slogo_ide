@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>listend</name>
+  <alternate-name>]</alternate-name>
+  <description>The end of the list</description>
+  <example>]</example>
+  <help> </help>
+  <number-params>0</number-params>
+  <implementing-class>ListEnd</implementing-class>
+</slogo>

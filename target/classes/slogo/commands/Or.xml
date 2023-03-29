@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>or</name>
+  <alternate-name>or</alternate-name>
+  <description>the or command returns 1 if test1 or test2 are non-zero, otherwise 0.</description>
+  <example>or 2 0</example>
+  <help> </help>
+  <number-params>2</number-params>
+  <implementing-class>Or</implementing-class>
+</slogo>

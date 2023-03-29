@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>product</name>
+  <alternate-name>*</alternate-name>
+  <description>The product command multiplies two numerical values and returns the product.</description>
+  <example>product 2 10</example>
+  <help>This command multiplies 2 numbers and returns the value.</help>
+  <number-params>2</number-params>
+  <implementing-class>Product</implementing-class>
+</slogo>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>towards</name>
+  <alternate-name>towards</alternate-name>
+  <description>The towards command rotates the turtle to face towards a specified target point on the screen.</description>
+  <example>towards 100 0 </example>
+  <help>This command takes both an x coordinate (double) and y coordinate (double) as parameters and rotates the Turtle to that point.</help>
+  <number-params>2</number-params>
+  <implementing-class>SetTowards</implementing-class>
+</slogo>

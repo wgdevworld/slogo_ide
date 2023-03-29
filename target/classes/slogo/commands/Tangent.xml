@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>tangent</name>
+  <alternate-name>tan</alternate-name>
+  <description>The tangent command returns tangent of the specified degrees.</description>
+  <example>tangent 90</example>
+  <help>This commands return tangent of the parameter passed to the function.</help>
+  <number-params>1</number-params>
+  <implementing-class>Tangent</implementing-class>
+</slogo>

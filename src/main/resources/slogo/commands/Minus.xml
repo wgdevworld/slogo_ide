@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>minus</name>
+  <alternate-name>~</alternate-name>
+  <description>The minus command returns the negative value of a numerical input.</description>
+  <example>minus 2</example>
+  <help>This command gets the negative value of a number</help>
+  <number-params>1</number-params>
+  <implementing-class>Minus</implementing-class>
+</slogo>

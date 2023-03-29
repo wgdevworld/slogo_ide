@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>MakeVariable</name>
+  <alternate-name>makevariable</alternate-name>
+  <description>assigns the value of expr to variable, creating the variable if necessary returns expr</description>
+  <example>make :a 5</example>
+  <help> </help>
+  <number-params>2</number-params>
+  <implementing-class>MakeVariable</implementing-class>
+</slogo>

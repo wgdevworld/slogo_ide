@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>difference</name>
+  <alternate-name>-</alternate-name>
+  <description>The difference command subtracts two numerical values and returns the difference.</description>
+  <example>difference 20 10</example>
+  <help>This command subtracts 2 numbers and returns the value.</help>
+  <number-params>2</number-params>
+  <implementing-class>Difference</implementing-class>
+</slogo>

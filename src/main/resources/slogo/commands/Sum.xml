@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>sum</name>
+  <alternate-name>+</alternate-name>
+  <description>The sum command adds two numerical values and returns the sum.</description>
+  <example>sum 20 10</example>
+  <help>This command sums 2 numbers and returns the value.</help>
+  <number-params>2</number-params>
+  <implementing-class>Sum</implementing-class>
+</slogo>

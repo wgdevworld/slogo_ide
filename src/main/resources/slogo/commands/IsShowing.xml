@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>showing?</name>
+  <alternate-name>showingp</alternate-name>
+  <description>The showing? command checks whether the turtle is currently visible on the screen or not, and returns a boolean value of true or false.</description>
+  <example>showing?</example>
+  <help>This commands checks if the Turtle is visible</help>
+  <number-params>0</number-params>
+  <implementing-class>IsShowing</implementing-class>
+</slogo>

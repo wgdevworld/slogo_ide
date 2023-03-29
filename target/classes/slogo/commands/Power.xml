@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>power</name>
+  <alternate-name>pow</alternate-name>
+  <description>The power command returns the base raised to the power of the exponent.</description>
+  <example>power 2 4</example>
+  <help>The power command returns the base raised to the power of the exponent.</help>
+  <number-params>2</number-params>
+  <implementing-class>Power</implementing-class>
+</slogo>

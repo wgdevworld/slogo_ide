@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>repeat</name>
+  <alternate-name>Repeat</alternate-name>
+  <description>repeat loop</description>
+  <example>repeat 5 [ fd 50 ]</example>
+  <help> </help>
+  <number-params>1</number-params>
+  <implementing-class>Repeat</implementing-class>
+</slogo>

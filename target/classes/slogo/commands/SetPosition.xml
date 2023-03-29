@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>setposition</name>
+  <alternate-name>setxy goto</alternate-name>
+  <description>The setposition command sets the turtle's position on the screen to a specified location.</description>
+  <example>towards 20 10 </example>
+  <help>This command takes both an x coordinate (double) and y coordinate (double) as parameters and moves the Turtle to that point.</help>
+  <number-params>2</number-params>
+  <implementing-class>SetPosition</implementing-class>
+</slogo>

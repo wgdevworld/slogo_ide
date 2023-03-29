@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>Constant</name>
+  <alternate-name>Constant</alternate-name>
+  <description>the constant command returns whatever constant is passed into it</description>
+  <example>3</example>
+  <help> </help>
+  <number-params>0</number-params>
+  <implementing-class>Constant</implementing-class>
+</slogo>

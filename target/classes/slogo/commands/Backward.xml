@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>backward</name>
+  <alternate-name>bk back</alternate-name>
+  <description>The backward command moves the turtle or pen in a backward direction by a specified distance.</description>
+  <example>bk 100</example>
+  <help>This command takes a double as a parameter and moves the Turtle backwards the specified distance</help>
+  <number-params>1</number-params>
+  <implementing-class>Backward</implementing-class>
+</slogo>

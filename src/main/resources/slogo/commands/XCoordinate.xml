@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>xcor</name>
+  <alternate-name>xcor</alternate-name>
+  <description>The xcor command returns the current x-coordinate of the turtle's position on the screen.</description>
+  <example>xcor</example>
+  <help>This commands returns x position of Turtle</help>
+  <number-params>0</number-params>
+  <implementing-class>XCoordinate</implementing-class>
+</slogo>
