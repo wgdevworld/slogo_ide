@@ -4,7 +4,8 @@
 
 
 This project implements a simple implementation of the logo language using 
-turtle graphics
+turtle graphics.
+Note that this is a copy of a private repository and does not have commit histories of members of the team.
 
 ### Timeline
 
@@ -12,7 +13,7 @@ turtle graphics
 
  * Finish Date: 03/10/2023
 
- * Hours Spent: 100+
+ * Hours Spent: 100+ (each)
 
 
 
