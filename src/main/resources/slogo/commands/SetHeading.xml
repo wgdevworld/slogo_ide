@@ -7,5 +7,6 @@
   <example>seth 180</example>
   <help>This command takes a double as a parameter and rotates the Turtle to that absolute heading.</help>
   <number-params>1</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>SetHeading</implementing-class>
 </slogo>

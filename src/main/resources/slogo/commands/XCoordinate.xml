@@ -7,5 +7,6 @@
   <example>xcor</example>
   <help>This commands returns x position of Turtle</help>
   <number-params>0</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>XCoordinate</implementing-class>
 </slogo>

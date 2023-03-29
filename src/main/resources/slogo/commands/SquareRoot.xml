@@ -7,5 +7,6 @@
   <example>squareroot 64</example>
   <help>This commands returns the square root of the parameter passed to the function.</help>
   <number-params>1</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>SquareRoot</implementing-class>
 </slogo>

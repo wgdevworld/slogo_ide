@@ -7,5 +7,6 @@
   <example>fd 100</example>
   <help>This command takes a double as a parameter and moves the Turtle forward the specified distance</help>
   <number-params>1</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>Forward</implementing-class>
 </slogo>

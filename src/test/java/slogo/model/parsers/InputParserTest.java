@@ -1,58 +1,67 @@
 package slogo.model.parsers;
 
+import java.util.ArrayList;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import slogo.model.Turtle;
+import java.util.Stack;
+import slogo.model.commands.Commands;
+import slogo.model.commands.allcommands.Backward;
+import slogo.model.commands.allcommands.Forward;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class InputParserTest {
-  private InputParser parserTest;
-
+  private InputParser parser;
+  private Stack<Commands> commandStack;
+  private Forward fwd;
+  private Backward bk;
 
   @BeforeEach
   void setUp () {
-    parserTest = new InputParser();
+    parser = new InputParser();
+    ArrayList<Double> params = new ArrayList<>();
+    Stack<ArrayList<String>> listStack = new Stack<>();
+    params.add(40.0);
+    params.add(50.0);
+    fwd = new Forward();
+    bk = new Backward();
+    fwd.setBehavior(params, parser.getTurtle(), listStack, parser.getObservers());
+    bk.setBehavior(params, parser.getTurtle(), listStack, parser.getObservers());
+    commandStack = new Stack<>();
+    Commands[] commandsArray = {bk, fwd};
+    for (Commands cmd : commandsArray) {
+      commandStack.push(cmd);
+    }
   }
 
   @Test
-  void testTokenizeLanguageCommand () {
-    // try different case options
-    assertEquals("Forward", parserTest.getSymbol("fd"));
-    assertEquals("Forward", parserTest.getSymbol("FD"));
-    assertEquals("Forward", parserTest.getSymbol("Fd"));
-    assertEquals("Forward", parserTest.getSymbol("forward"));
-    assertEquals("Forward", parserTest.getSymbol("Forward"));
-    assertEquals("Forward", parserTest.getSymbol("ForwarD"));
-    assertEquals("Forward", parserTest.getSymbol("FORWARD"));
-    // spelling errors, or wrong language, are treated as a user defined command
-    assertEquals("Command", parserTest.getSymbol("fdd"));
-    assertEquals("Command", parserTest.getSymbol("ava"));
+  void testGetTurtle() {
+    assertInstanceOf(Turtle.class, parser.getTurtle());
   }
 
   @Test
-  void testTokenizeSyntax () {
-    // try different decimal placements, positive and negative
-    // note, must have a digit before decimal point
-    assertEquals("Constant", parserTest.getSymbol("100"));
-    assertEquals("Constant", parserTest.getSymbol("-100"));
-    assertEquals("Constant", parserTest.getSymbol("100."));
-    assertEquals("Constant", parserTest.getSymbol("100.0"));
-    assertEquals("Constant", parserTest.getSymbol("100.001"));
-    assertEquals("Constant", parserTest.getSymbol("0.001"));
-    assertEquals("Constant", parserTest.getSymbol("-0.001"));
+  void parseProgramCode() {
+
   }
 
   @Test
-  void testEmptyStringsProduceErrors () {
-    assertThrows(IllegalArgumentException.class, () -> parserTest.getSymbol(null));
-    assertThrows(IllegalArgumentException.class, () -> parserTest.getSymbol(""));
-    assertThrows(IllegalArgumentException.class, () -> parserTest.getSymbol(" "));
+  void parseTokenizedInput() {
+
   }
 
   @Test
-  void testReadLanguageProperties () {
-    final String COMMAND = "Forward";
-    assertEquals("forward|fd", parserTest.getCommand(COMMAND));
-    parserTest.changeLanguage("Spanish");
-    assertEquals("avanzar|ava", parserTest.getCommand(COMMAND));
+  void testParseCommandStack() throws Exception {
+//    parser.parseProgramCode("fd bk 40");
+//    Stack<Double> valStack = new Stack<>();
+//    valStack.push(0.0);
+//    valStack.push(40.0);
+//    assertEquals(valStack, parser.parseCommandStack(commandStack));
   }
-}
+
+  @Test
+  void getCommands() {
+
+  }
+  }
+

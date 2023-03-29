@@ -7,5 +7,6 @@
   <example>less 4 5</example>
   <help> </help>
   <number-params>2</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>LessThan</implementing-class>
 </slogo>

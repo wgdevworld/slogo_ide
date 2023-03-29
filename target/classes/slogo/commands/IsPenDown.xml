@@ -7,5 +7,6 @@
   <example>pendown?</example>
   <help>This commands checks if the pen is currently down.</help>
   <number-params>0</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>IsPenDown</implementing-class>
 </slogo>

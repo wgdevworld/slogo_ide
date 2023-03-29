@@ -7,5 +7,6 @@
   <example>tangent 90</example>
   <help>This commands return tangent of the parameter passed to the function.</help>
   <number-params>1</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>Tangent</implementing-class>
 </slogo>

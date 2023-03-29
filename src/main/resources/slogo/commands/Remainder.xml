@@ -7,5 +7,6 @@
   <example>remainder 2 10</example>
   <help>This command divides 2 numbers and returns the remainder of the division.</help>
   <number-params>2</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>Remainder</implementing-class>
 </slogo>

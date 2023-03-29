@@ -7,5 +7,6 @@
   <example>ht</example>
   <help>This commands hides the Turtle, making it invisible on the screen.</help>
   <number-params>0</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>HideTurtle</implementing-class>
 </slogo>

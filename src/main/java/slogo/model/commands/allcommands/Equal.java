@@ -4,11 +4,13 @@
  */
 package slogo.model.commands.allcommands;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import slogo.controller.TurtleObserver;
 import slogo.model.Turtle;
 import slogo.model.commands.Commands;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
 
 public class Equal extends Commands {
 
@@ -40,11 +42,13 @@ public class Equal extends Commands {
      * Sets the behavior|values of the "Equal" command instance.
      *
      * @param paramList a list of parameters for the "Equal" command
-     * @param turtle
+     * @param turtle    the turtle object
+     * @param listStack the stack of lists
+     * @param observers the list of observers
      * @return the result of the "Equal" command
      */
     @Override
-    public double setBehavior(ArrayList<Double> paramList, Turtle turtle) {
+    public double setBehavior(ArrayList<Double> paramList, Turtle turtle, Stack<ArrayList<String>> listStack, List<TurtleObserver> observers) {
         a = paramList.get(0);
         b = paramList.get(1);
         value = equalValue(a, b);
@@ -52,7 +56,7 @@ public class Equal extends Commands {
     }
 
     /**
-     * Executes the "equal" command.
+     * Executes the "Equal" command.
      *
      * @param turtle the turtle object
      * @return the result of the "Equal" command
@@ -63,11 +67,21 @@ public class Equal extends Commands {
     }
 
     /**
+     * Prepares the "Equal" command.
+     *
+     * @param commandString the string representation of the command
+     */
+    @Override
+    public void prep(String commandString) {
+
+    }
+
+    /**
      * Calculates if the first parameter is equal to the second parameter.
      *
-     * @param first the first parameter
+     * @param first  the first parameter
      * @param second the second parameter
-     * @return 1 if the first value is equal to the second value
+     * @return 1 if the first value is equal to the second value, otherwise 0
      */
     private double equalValue(double first, double second) {
         return first == second ? 1 : 0;

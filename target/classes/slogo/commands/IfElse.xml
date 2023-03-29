@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>ifelse</name>
+  <alternate-name>IfElse</alternate-name>
+  <description>IfElse conditional</description>
+  <example>IfElse pendownp [ fd 50 ] [ back 50 ]</example>
+  <help> </help>
+  <number-params>1</number-params>
+  <number-pops>2</number-pops>
+  <implementing-class>IfElse</implementing-class>
+</slogo>

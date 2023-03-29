@@ -55,6 +55,7 @@ public class Controller implements TurtleObserver {
     myInputParser.addObserver(this);
     myView.setController(this);
     DEFAULT_SIZE = getDimensions("Stage");
+    myStage.setResizable(false);
     myStage.setScene(myView.makeScene(DEFAULT_SIZE.width, DEFAULT_SIZE.height));
     myStage.setTitle(TITLE);
     myStage.show();

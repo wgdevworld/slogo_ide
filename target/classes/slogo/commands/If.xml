@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<slogo>
+  <name>if</name>
+  <alternate-name>If</alternate-name>
+  <description>If conditional</description>
+  <example>If pendownp [ fd 50 ]</example>
+  <help> </help>
+  <number-params>1</number-params>
+  <number-pops>1</number-pops>
+  <implementing-class>If</implementing-class>
+</slogo>

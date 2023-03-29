@@ -39,7 +39,7 @@ import slogo.controller.Controller;
 public class View {
 
   private static final String DEFAULT_STYLESHEET =
-      "/" + Main.DEFAULT_RESOURCE_PACKAGE.replace(".", "/") + "Default.css";
+          "/" + Main.DEFAULT_RESOURCE_PACKAGE.replace(".", "/") + "Default.css";
   private static final String PANEL_RESOURCES = "PanelActions";
   private static final String DRAWER = "Turtle";
 
@@ -194,9 +194,9 @@ public class View {
 
   private void makeCommandHistory(ScrollPane result) {
     result.setPrefSize(myController.getDimensions(result.getId()).getWidth(),
-        myController.getDimensions(result.getId()).getHeight());
+            myController.getDimensions(result.getId()).getHeight());
     myText.setPrefSize(myController.getDimensions(myText.getId()).getWidth(),
-        myController.getDimensions(myText.getId()).getHeight());
+            myController.getDimensions(myText.getId()).getHeight());
     result.setContent(myText);
   }
 
@@ -273,7 +273,7 @@ public class View {
     popupStage.initOwner(stage);
     popupStage.setTitle(null);
     popupStage.setScene(new Scene(layout, myController.getDimensions("InputPopup").width,
-        myController.getDimensions("InputPopup").height));
+            myController.getDimensions("InputPopup").height));
     CompletableFuture<Integer> futureInput = new CompletableFuture<>();
     submitButton.setOnAction(e -> {
       String input = inputField.getText();
@@ -315,3 +315,5 @@ public class View {
     return myText;
   }
 }
+
+

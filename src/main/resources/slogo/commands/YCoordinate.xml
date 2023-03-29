@@ -7,5 +7,6 @@
   <example>ycor</example>
   <help>This commands returns y position of Turtle</help>
   <number-params>0</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>YCoordinate</implementing-class>
 </slogo>

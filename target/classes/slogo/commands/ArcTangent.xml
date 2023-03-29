@@ -7,5 +7,6 @@
   <example>arctangent 180</example>
   <help>This commands return arctangent of the parameter passed to the function.</help>
   <number-params>1</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>ArcTangent</implementing-class>
 </slogo>

@@ -1,10 +1,12 @@
 package slogo.model.commands.allcommands;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import slogo.controller.TurtleObserver;
 import slogo.model.Turtle;
 import slogo.model.commands.Commands;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
 
 public class Power extends Commands {
 
@@ -24,18 +26,45 @@ public class Power extends Commands {
         value = powValue(base, exponent);
     }
 
+    /**
+     * Sets the behavior|values of the "Power" command instance.
+     *
+     * @param paramList a list of parameters for the "Power" command
+     * @param turtle    the turtle object
+     * @param listStack the stack of lists
+     * @param observers the list of observers
+     * @return the value of base raised to the power of exponent
+     */
     @Override
-    public double setBehavior(ArrayList<Double> paramList, Turtle turtle) {
+    public double setBehavior(ArrayList<Double> paramList, Turtle turtle, Stack<ArrayList<String>> listStack, List<TurtleObserver> observers) {
         base = paramList.get(0);
         exponent = paramList.get(1);
         value = powValue(base, exponent);
         return value;
     }
+
+    /**
+     * Executes the "Power" command.
+     *
+     * @param turtle the turtle object
+     * @return the value of base raised to the power of exponent
+     */
     @Override
     public double execute(Turtle turtle) {
         return value;
     }
-    private double powValue(double a, double b) {
-        return Math.pow(a, b);
+
+    /**
+     * Prepares the "Power" command.
+     *
+     * @param commandString the string representation of the command
+     */
+    @Override
+    public void prep(String commandString) {
+
+    }
+
+    private double powValue(double base, double exponent) {
+        return Math.pow(base, exponent);
     }
 }

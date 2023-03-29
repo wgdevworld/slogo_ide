@@ -7,5 +7,6 @@
   <example>power 2 4</example>
   <help>The power command returns the base raised to the power of the exponent.</help>
   <number-params>2</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>Power</implementing-class>
 </slogo>

@@ -7,5 +7,6 @@
   <example>heading</example>
   <help>This commands returns the orientation of the Turtle</help>
   <number-params>0</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>Heading</implementing-class>
 </slogo>

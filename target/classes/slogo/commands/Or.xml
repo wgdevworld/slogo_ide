@@ -7,5 +7,6 @@
   <example>or 2 0</example>
   <help> </help>
   <number-params>2</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>Or</implementing-class>
 </slogo>

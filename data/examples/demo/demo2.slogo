@@ -1,4 +1,0 @@
-set :numtimes 180
-repeat :numtimes [ fd 1 RT 2 ]
-home
-

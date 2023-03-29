@@ -7,5 +7,6 @@
   <example>minus 2</example>
   <help>This command gets the negative value of a number</help>
   <number-params>1</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>Minus</implementing-class>
 </slogo>

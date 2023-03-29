@@ -7,5 +7,6 @@
   <example>pd</example>
   <help>This commands allows for the Turtle to draw visible lines on the screen as it moves.</help>
   <number-params>0</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>PenDown</implementing-class>
 </slogo>

@@ -4,11 +4,13 @@
  */
 package slogo.model.commands.allcommands;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import slogo.controller.TurtleObserver;
 import slogo.model.Turtle;
 import slogo.model.commands.Commands;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
 
 public class Or extends Commands {
 
@@ -41,10 +43,12 @@ public class Or extends Commands {
      *
      * @param paramList a list of parameters for the "Or" command
      * @param turtle
+     * @param listStack
+     * @param observers
      * @return the result of the "Or" command
      */
     @Override
-    public double setBehavior(ArrayList<Double> paramList, Turtle turtle) {
+    public double setBehavior(ArrayList<Double> paramList, Turtle turtle, Stack<ArrayList<String>> listStack, List<TurtleObserver> observers) {
         a = paramList.get(0);
         b = paramList.get(1);
         value = orValue(a, b);
@@ -60,6 +64,11 @@ public class Or extends Commands {
     @Override
     public double execute(Turtle turtle) {
         return value;
+    }
+
+    @Override
+    public void prep(String commandString) {
+
     }
 
     /**

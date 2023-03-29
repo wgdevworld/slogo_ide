@@ -7,5 +7,6 @@
   <example>sum 20 10</example>
   <help>This command sums 2 numbers and returns the value.</help>
   <number-params>2</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>Sum</implementing-class>
 </slogo>

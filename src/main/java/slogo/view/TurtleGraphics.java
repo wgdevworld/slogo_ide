@@ -23,6 +23,15 @@ import org.apache.commons.lang3.tuple.Triple;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Purpose:
+ * <p> Creating a visual turtle to move along the canvas
+ * Assumptions:
+ * <p> None
+ * Dependencies:
+ * <p> Controller,
+* @author  Charles Turpin, Woonggyu Jin
+*/
 public class TurtleGraphics {
 
   private static double CANVAS_WIDTH;
@@ -82,9 +91,21 @@ public class TurtleGraphics {
     return animation;
   }
 
-  //list idea from chatGPT
+
+  /**
+   * Purpose:
+   * <p> Update the position of the turtle visual on the canvas
+   * Assumptions:
+   * <p> Input from controller will be valid
+   * Parameters:
+   * <p> (x,y) position, direction: where the turtle should face, penDown: decide
+   * whether to draw the line, penColor: color of line, visible: is the turtle image visible
+   * Return:
+   * <p> None
+   * @author Charles Turpin, Woonggyu Jin
+   */
   public void updateTurtleGraphics(double x, double y, double direction,
-      boolean penDown, Color penColor, boolean visible) {
+                                   boolean penDown, Color penColor, boolean visible) {
     myColor = penColor;
     isVisible = visible;
     myDirection = direction;
@@ -117,9 +138,11 @@ public class TurtleGraphics {
     }
     if (penDown) {
       gc.strokeLine(oldX + CANVAS_WIDTH / 2, oldY + CANVAS_HEIGHT / 2, newX + CANVAS_WIDTH / 2,
-          newY + CANVAS_HEIGHT / 2);
+              newY + CANVAS_HEIGHT / 2);
     }
   }
 
 
 }
+
+

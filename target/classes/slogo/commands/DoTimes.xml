@@ -7,5 +7,6 @@
   <example>dotimes [][]</example>
   <help> </help>
   <number-params>0</number-params>
+  <number-pops>2</number-pops>
   <implementing-class>DoTimes</implementing-class>
 </slogo>

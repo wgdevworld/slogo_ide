@@ -7,5 +7,6 @@
   <example>random 100</example>
   <help>This commands generates a random number less a max number.</help>
   <number-params>1</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>Random</implementing-class>
 </slogo>

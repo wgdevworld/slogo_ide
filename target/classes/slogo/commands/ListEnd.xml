@@ -7,5 +7,6 @@
   <example>]</example>
   <help> </help>
   <number-params>0</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>ListEnd</implementing-class>
 </slogo>

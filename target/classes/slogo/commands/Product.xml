@@ -7,5 +7,6 @@
   <example>product 2 10</example>
   <help>This command multiplies 2 numbers and returns the value.</help>
   <number-params>2</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>Product</implementing-class>
 </slogo>

@@ -7,5 +7,6 @@
   <example>not 10</example>
   <help> </help>
   <number-params>1</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>Not</implementing-class>
 </slogo>

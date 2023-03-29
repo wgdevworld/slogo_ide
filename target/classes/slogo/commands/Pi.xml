@@ -7,5 +7,6 @@
   <example>pi</example>
   <help>The pi command returns value of the number Pi (Math.PI).</help>
   <number-params>0</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>Pi</implementing-class>
 </slogo>

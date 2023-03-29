@@ -7,5 +7,6 @@
   <example>repeat 5 [ fd 50 ]</example>
   <help> </help>
   <number-params>1</number-params>
+  <number-pops>1</number-pops>
   <implementing-class>Repeat</implementing-class>
 </slogo>

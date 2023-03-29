@@ -7,5 +7,6 @@
   <example>home</example>
   <help>This commands places the Turtle back at the center of the screen</help>
   <number-params>0</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>Home</implementing-class>
 </slogo>

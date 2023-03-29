@@ -7,5 +7,6 @@
   <example>greaterequal 2 4</example>
   <help> </help>
   <number-params>2</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>GreaterEqual</implementing-class>
 </slogo>

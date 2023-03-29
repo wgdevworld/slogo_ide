@@ -7,5 +7,6 @@
   <example>cs</example>
   <help>This commands resets the screen by removing any already drawn lines and places the turtle in the center of the screen.</help>
   <number-params>0</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>ClearScreen</implementing-class>
 </slogo>

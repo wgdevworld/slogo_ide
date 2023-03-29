@@ -7,5 +7,6 @@
   <example>st</example>
   <help>This commands allows for the Turtle to be visible on the screen.</help>
   <number-params>0</number-params>
+  <number-pops>0</number-pops>
   <implementing-class>ShowTurtle</implementing-class>
 </slogo>

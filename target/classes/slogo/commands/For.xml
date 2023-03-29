@@ -7,5 +7,6 @@
   <example>for[][]</example>
   <help> </help>
   <number-params>0</number-params>
+  <number-pops>2</number-pops>
   <implementing-class>And</implementing-class>
 </slogo>
